@@ -12,6 +12,7 @@ int main(void)
 
 int func3(int a, int b)
 {
-    /* TODO: a と b の差の絶対値を返す */
-    return 0;
+    if (a >= b)
+        return a - b;
+    return b - a;
 }
